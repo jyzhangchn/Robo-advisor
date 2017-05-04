@@ -11,37 +11,53 @@
     <link type="text/css" rel="stylesheet" href="style/main.css">
     <link type="text/css" rel="stylesheet" href="style/news.css">
     <script src="./dist/js/bootstrap.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-md-3 col-md-offset-1" style="padding:10px 20px;font-family: PingFangTC-Light;font-size: 14px;color: #264863;">
+            <div class="col-md-3" style="padding:10px 0px;font-family: PingFangTC-Light;font-size: 14px;color: #264863;">
                 <!--<a claas="text-left">欢迎！</a>-->
                 欢迎！
                 <span class="glyphicon glyphicon-user"></span>
                 <a claas="text-left " >噜啦噜啦蹦擦擦</a>
             </div>
-            <div class="col-md-2 col-md-offset-5" >
-                <button type="button" class="btn btn-link text-right btn-primary">Settings</button>
-                <button type="button" class="btn btn-link text-right btn-primary">Log out</button>
+            <div class="col-md-2 col-md-offset-7" style="text-align:right">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-link btn-primary dropdown-toggle" data-toggle="dropdown" style="padding:10px 0px">
+                        Settings <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">个人评测</a></li>
+                        <li><a href="#">资料修改</a></li>
+                        <li><a href="#">其他</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">退出账户</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="container-fluid">
         <div class="row" style="background-color:#a0daff;height=160px;">
             <div class="col-md-2 col-md-offset-2" >
-                <img src="./image/Finance.png" class="img-responsive" style="margin:10px 0px 0px;" width="150" height="150">
+                <img src="./image/Finance.png" class="img-responsive" width="150" height="150">
             </div>
             <div class="col-md-3" style="padding-top:100px;font-family: PingFangTC-Medium;font-size: 30px;color: #0E5F92;">
                 您身边的智能投顾平台
             </div>
-            <div class="col-md-4 nav" style="padding-top:110px;padding-right:70px;">
+            <div class="col-md-4 nav" style="padding-top:110px;">
                 <button type="button" class="btn btn-link  nav" >FOF</button>
                 <button type="button" class="btn btn-link  nav" >NEWS</button>
                 <button type="button" class="btn btn-link  nav" >ABOUT</button>
                 <button type="button" class="btn btn-link  nav" >CONTACT</button>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
-            <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-12">
                 <ol class="breadcrumb" style="background: transparent;">
                     <li><a href="#" style="color:#264863;text-decoration: underline">Home</a></li>
                     <li><a href="#" style="color:#959595">News</a></li>
@@ -54,6 +70,7 @@
         <div class="row">
             <div class="col-md-4" style="background:#00dab9;border:solid white 5px;">
                 <img src="./image/icon/icon4.png" class="img-responsive" width="80%" >
+                <a class="title">This a title</a>
             </div>
             <div class="col-md-4" style="background:#CBAD8B;border:solid white 5px;">
                 <img src="./image/icon/icon10.png" class="img-responsive" width="80%" >

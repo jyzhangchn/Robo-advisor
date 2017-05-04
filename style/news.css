@@ -3,3 +3,9 @@
 .top{
     margin:3px;
 }
+.title{
+    font-family: PingFangTC-Semibold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left:60px;
+}
