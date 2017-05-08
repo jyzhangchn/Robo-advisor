@@ -12,14 +12,16 @@
     <link type="text/css" rel="stylesheet" href="style/news.css">
     <script src="./dist/js/bootstrap.js"></script>
     <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
 
 </head>
 <body>
-    <!--顶部&settings-->
+    <!--顶部&setting-->
     <div class="container">
         <div class="row">
             <div class="col-md-3" style="padding:10px 0px;font-family: Arial;font-size: 14px;color: #264863;">
-                <!--<a claas="text-left">欢迎！</a>-->
                 欢迎！
                 <span class="glyphicon glyphicon-user"></span>
                 <a claas="text-left " >噜啦噜啦蹦擦擦</a>
@@ -65,69 +67,43 @@
             <div class="col-md-12">
                 <ol class="breadcrumb" style="background: transparent;">
                     <li><a href="#" style="color:#264863;text-decoration: underline">Home</a></li>
-                    <li><a href="#" style="color:#959595">News</a></li>
+                    <li><a href="#" style="color:#959595">个人评测</a></li>
                     <li class="active"></li>
                 </ol>
             </div>
         </div>
     </div>
 
-    <!--新闻卡片-->
-    <div class="container" >
-        <div class="row" >
-            <div class="col-md-4 card" style="background:#00dab9;">
-                <img src="./image/icon/icon4.png" class="img-responsive" width="80%" >
-                <p class="title">智能投顾:</p>
-                <p class="title">智能时代财富管理专家</p>
-                <span class="glyphicon glyphicon-time view">
-                    <a style="color:#264843">200 </a>views
-                </span>
-            </div>
-            <div class="col-md-4 card" style="background:#CBAD8B;">
-                <img src="./image/icon/icon10.png" class="img-responsive" width="80%" >
-            </div>
-            <div class="col-md-4 card" style="background:#50C0EA;">
-                <img src="./image/icon/icon9.png" class="img-responsive" width="80%" >
+    <!--进度条-->
+    <div class="container">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                 aria-valuemin="0" aria-valuemax="100" style="width: 40%;color:#264863;">
+                <span class="sr-only">40% 完成</span>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 card" style="background:#ffb211;">
-                <img src="./image/icon/icon11.png" class="img-responsive" width="80%" >
+    </div>
+
+    <!--个性评测-->
+    <div class="container">
+        <div class="row"">
+            <div class="col-md-3 question" style="">
+                <p class="q1">
+                    您的年龄是多少
+                </p>
             </div>
-            <div class="col-md-8 card" style="background:#F47E54;">
-                <div class="row">
-                    <div class="col-md-6 " >
-                        <img src="./image/icon/icon5.png" class="img-responsive" width="80%" >
-                    </div>
-                </div>
+            <div class="col-md-3" style="">
+
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 card" style="background:#a3cda5;">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="./image/icon/icon6.png" class="img-responsive" width="80%" >
-                    </div>
-                </div>
+            <div class="col-md-3" style="">
+
             </div>
-            <div class="col-md-4 card" style="background:#b6d4d0;">
-                <img src="./image/icon/icon7.png" class="img-responsive" width="80%" >
+            <div class="col-md-3" style="">
+
             </div>
         </div>
     </div>
 
 
 </body>
-<footer>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 col-md-offset-0" style="background: #264863;font-family: PingFangTC-Medium;font-size: 12px;color: #FFFFFF;text-align: center;">
-                <br><br>
-                Copyright jyzhang
-                <br><br>
-
-            </div>
-        </div>
-    </div>
-</footer>
 </html>
